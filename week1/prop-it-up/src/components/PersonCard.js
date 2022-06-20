@@ -9,7 +9,7 @@ return (
     <h2>
         {lastName}, {firstName}
     </h2>
-    <p>Age: {props.age}</p>
+    <p>Age: {age}</p>
     <p>Hair Color: {hairColor}</p>
     </div>
 );
