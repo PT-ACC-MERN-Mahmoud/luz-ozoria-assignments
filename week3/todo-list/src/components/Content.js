@@ -11,10 +11,7 @@ const Input = ( props ) => {
 
     const formHandler = (e) => {
         e.preventDefault();
-        let newTask = {
-            name: taskName,
-            isComplete: false
-        }
+        let newTask = {name: taskName,isComplete: false}
         setTaskList([...taskList,newTask]);
         setTaskName("");
     }
